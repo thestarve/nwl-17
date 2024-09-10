@@ -1,10 +1,15 @@
-// Hello, World
+let meta = {
+    value: 'Ler um livro por mês',
+    checked: false
+}
 
-console.log("Hello, world!")
-
-const nome = "Gabriel";
-console.log(nome);
+let metas = [
+    meta,
     {
-    const sobrenome = "Salinas";
-    console.log(sobrenome);
+        value: "Caminhar 20min por dia",
+        checked: false
     }
+]
+
+console.log(metas[0].value);
+console.log(metas[1].value)
