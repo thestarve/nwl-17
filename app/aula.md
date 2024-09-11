@@ -65,3 +65,9 @@ function = criarMeta() {}
     # Os dois modelos juntos 
 function = criarMeta() {}
 const criarMeta() => {}
+
+# importação de Lib
+
+npm install inquirer
+
+const { select } = require('@inquirer/prompts')
